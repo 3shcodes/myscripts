@@ -7,10 +7,10 @@ function gitInit(){
     em=''
     un=''
 
-    if [[ ${forwhom^} = 'c' ]];then
+    if [[ $forwhom = 'c' ]];then
         em="thir19426.cs@rmkec.ac.in"
         un="thrishalsundar"
-    elif [[ ${forwhom^} = '3' ]];then
+    elif [[ $forwhom = '3' ]];then
         em="3shcodes@gmail.com"
         un="3shcodes"
     else
